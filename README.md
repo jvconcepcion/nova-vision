@@ -1,12 +1,56 @@
-# React + Vite
+# NovaVision VR Platform Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![NovaVision Header](./public/brand.png)
 
-Currently, two official plugins are available:
+## 🚀 About the Project  
+A cutting-edge landing page for NovaVision's, built with React 19 and Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack  
+- **Framework:** React 19 + Vite  
+- **Styling:** Tailwind CSS, PostCSS  
+- **UI Components:**  
+  - `lucide-react`, `react-icons`, `react-type-animation`  
+- **Performance:** Vite 6.3.5  
+- **Security:** ESLint with React Refresh  
 
-## Expanding the ESLint configuration
+## 📦 Dependencies
+```json
+"dependencies": {
+  "lucide-react": "^0.511.0",
+  "react": "^19.1.0",
+  "react-dom": "^19.1.0",
+  "tailwindcss": "^3.4.17"
+}
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+```
+/virtual-ar-landingpage
+  ├── public          # Static assets
+  ├── src
+  │   ├── assets      # Demo Assets
+  │   ├── components  # Interactive VR widgets
+  │   ├── constants   # store various data structure
+  │   ├── styles        # Global styles
+```
+
+## 🚀 Getting Started
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/virtual-ar-landingpage.git
+cd virtual-ar-landingpage
+```
+
+### 2. Install Dependencies
+```bash
+npm install  # or yarn install
+```
+
+### 3. Run the Development Server
+```bash
+npm run dev  # or yarn dev
+```
+Your portfolio will be available at [http://localhost:5173](http://localhost:5173).
+
+---
+✨ **Designed & Developed by Jonathan V. Concepcion** ✨
