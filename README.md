@@ -3,7 +3,7 @@
 ![NovaVision Header](./public/brand.png)
 
 ## 🚀 About the Project  
-A cutting-edge landing page for NovaVision's, built with React 19 and Vite.
+A simple landing page for NovaVision's, built with React 19 and Vite.
 
 ## 🛠️ Tech Stack  
 - **Framework:** React 19 + Vite  
